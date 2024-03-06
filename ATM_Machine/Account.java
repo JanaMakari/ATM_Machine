@@ -28,6 +28,7 @@ public class Account {
         this.id = id;
         this.balance = balance;
         setAnnualInterestRate(annualInterestRate);
+        this.dateCreated = new Date();
     }
     //
     
